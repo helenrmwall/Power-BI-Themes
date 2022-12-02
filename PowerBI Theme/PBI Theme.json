@@ -1,0 +1,79 @@
+﻿{
+  "name": "PBI Theme",
+  "textClasses": {
+    "label": {
+      "fontFace": "wf_standard-font, helvetica, arial, sans-serif"
+    },
+    "header": {
+      "fontFace": "wf_standard-font, helvetica, arial, sans-serif"
+    }
+  },
+  "dataColors": [
+    "#117865",
+    "#1F937E",
+    "#2AAC94",
+    "#3ABB9F",
+    "#52C7AA",
+    "#78D3B9",
+    "#9EE0CB",
+    "#C0ECDD"
+  ],
+  "bad": "#CB1F31",
+  "neutral": "#F2C811",
+  "good": "#117865",
+  "minimum": "#C0ECDD",
+  "center": "#117865",
+  "maximum": "#001919",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "visualHeader": [
+          {
+            "foreground": {
+              "solid": {
+                "color": "#001919"
+              }
+            }
+          }
+        ],
+        "visualTooltip": [
+          {
+            "themedTitleFontColor": {
+              "solid": {
+                "color": "#001919"
+              }
+            },
+            "themedValueFontColor": {
+              "solid": {
+                "color": "#001919"
+              }
+            },
+            "actionFontColor": {
+              "solid": {
+                "color": "#001919"
+              }
+            }
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "themedTitleFontColor": {
+              "solid": {
+                "color": "#001919"
+              }
+            }
+          }
+        ],
+        "outspacePane": [
+          {
+            "foregroundColor": {
+              "solid": {
+                "color": "#001919"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
